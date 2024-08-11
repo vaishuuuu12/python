@@ -1,0 +1,5 @@
+my_list = [10, 15, 22, 33, 42, 55, 60]
+even_elements = [x for x in my_list if x % 2 == 0]
+odd_elements = [x for x in my_list if x % 2 != 0]
+print("Even elements:", even_elements)
+print("Odd elements:", odd_elements)
