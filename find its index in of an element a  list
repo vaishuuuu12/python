@@ -1,0 +1,4 @@
+my_list = [10, 20, 30, 40, 50, 20]
+element = 20
+index = my_list.index(element)
+print(f"Index of the first occurrence of {element}:", index)
