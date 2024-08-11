@@ -1,0 +1,10 @@
+# Example: Calculate the sum of the factorial series from 1! to n!
+n = 5
+factorial = 1
+sum_of_factorials = 0
+
+for i in range(1, n + 1):
+    factorial *= i  # Calculate i!
+    sum_of_factorials += factorial  # Add i! to the sum
+
+print(f"The sum of the factorial series from 1! to {n}! is {sum_of_factorials}.")
