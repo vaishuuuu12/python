@@ -1,0 +1,9 @@
+my_list = [1, 2, 3, 4, 5, 1, 2, 6, 7, 3]
+count_dict = {}
+for item in my_list:
+    if item in count_dict:
+        count_dict[item] += 1
+    else:
+        count_dict[item] = 1
+duplicates = [item for item, count in count_dict.items() if count > 1]
+print("Duplicate elements:", duplicates)
