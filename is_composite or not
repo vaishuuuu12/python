@@ -1,0 +1,6 @@
+number = 30  # You can change this to test other numbers
+if number <= 1:
+    print(f"{number} is neither prime nor composite.")
+else:
+    is_composite = any(number % i == 0 for i in range(2, int(number**0.5) + 1))
+    print(f"{number} is a composite number." if is_composite else f"{number} is not a composite number (it is prime).")
