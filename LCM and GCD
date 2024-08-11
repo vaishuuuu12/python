@@ -1,0 +1,7 @@
+import math
+a=int(input("Enter the a value"))
+b=int(input("Enter the b value"))
+c=math.lcm(a,b)
+d=math.gcd(a,b)
+print("LCM value=",c)
+print("GCD value=",d)
