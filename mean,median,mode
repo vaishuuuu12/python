@@ -1,0 +1,11 @@
+import statistics
+numbers = [4, 1, 7, 1, 5, 9, 1, 6, 7, 2]
+mean = statistics.mean(numbers)
+median = statistics.median(numbers)
+try:
+    mode = statistics.mode(numbers)
+except statistics.StatisticsError:
+    mode = "No unique mode"
+print(f"Mean: {mean}")
+print(f"Median: {median}")
+print(f"Mode: {mode}")
