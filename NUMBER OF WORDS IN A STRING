@@ -1,0 +1,4 @@
+n=input("enter string: ")
+b=n.split()
+print(b)
+print("no of words:",len(b)
