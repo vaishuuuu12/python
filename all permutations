@@ -1,0 +1,11 @@
+import itertools
+
+# Example list
+data = [1, 2, 3]
+
+# Find all permutations
+permutations = list(itertools.permutations(data))
+
+# Print the permutations
+for perm in permutations:
+    print(perm)
